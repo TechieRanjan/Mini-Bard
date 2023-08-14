@@ -1,0 +1,44 @@
+{
+  "name": "Ranjan kashyap",
+  "short_name": "Mini Bard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": " #0e1525",
+  "theme_color_dark": "#000000",
+  "theme_color_light": "fff",
+  "description": "Mini google search engine made by ranjan",
+  "icons": [
+    {
+      "src": "images/icons.png",
+      "sizes": "512x512",
+      "type": "image/png"
+
+    },
+    {
+      "src": "images/icons.png",
+      "sizes": "192x192",
+      "type": "image/png"
+
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screen1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mini bard in dark mode"
+    },
+    {
+      "src": "images/screen2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mini bard in white mode"
+
+
+    }
+  ]
+}
+
+

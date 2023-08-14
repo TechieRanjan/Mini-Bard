@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width,interactive-widget=resizes-content">
+      <meta name="description" content="Mini Google Search Engine">
+  <link rel="manifest" href="manifest.json" />
+    
+    <meta name="keywords" content="mini Google, search engine, web development">
+    <meta name="author" content="Ranjan Kashyap">
+    <meta name="robots" content="index, follow">
+    <!-- <meta name="theme-color" content="#4285f4"> -->
+    <meta property="og:title" content="Mini Google Search Engine">
+    <meta property="og:description" content="A mini search engine inspired website developed by Ranjan">
+   <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/qr5mZdH/transition.png">
+    <meta property="og:url" content="https://mini-bard.ranjankashyap1.repl.co">
+    <meta property="og:type" content="website">
+<link rel="shortcut icon" href= "https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg"/>
+
+      <link rel="image_src" href="https://i.ibb.co/QjMgKx0/bard-svg.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Mini Bard</title>
+ 
+  </head>
+  <body>
+  
+    <header>
+      <span>Mini Bard</span>
+    </header>
+    <main id="main_container">
+        <section id="main_section">
+            <div id="intro" class="answer_box">
+                <div class="loaderBox">
+                  <img id="loader" src="images\bard.gif" alt="loading..." />
+                </div>
+                <div>
+        
+                  <p  class="answer">    
+        I’m Ranjan, your creative and helpful collaborator. I have limitations and won’t always get it right
+                  </p>
+                  <p style="margin: 10px 0;"  >
+                    
+        A chat bot that tells answer only question that have topic is a type of chatbot that is designed to answer questions that are specific to a particular topic.
+                  </p>
+                  <p style="margin: 10px 0;">
+                    Not sure where to start? You can try:
+                  </p>
+        
+              <div class="spans">
+                <span id="spansTry" >Who is Narendra Modi</span>
+        
+                <span id="spansTry" >Arijit Singh </span>
+                <span id="spansTry" >What is space</span>
+              </div>
+        
+                </div>
+              </div>
+         
+        </section>
+      </div>
+     
+    </main>
+  <footer>
+        <form method="post" action="#" class="wrapper" id="form">
+          <input
+            required
+            name="query"
+            id="inputText"
+            type="search"
+            autocomplete="off"
+            placeholder="Enter a query here"
+          />
+          <i id="sendButton" class="material-icons">send</i>
+          <input hidden id="hiddenBtn" type="submit" value="Submit" />
+        </form>
+      </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
